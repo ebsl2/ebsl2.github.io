@@ -1,0 +1,298 @@
+*{
+    background-color: rgb(255, 254, 237);
+    overflow-x:hidden;
+ }
+
+ .absolute{
+    position: absolute;
+ }
+
+ .fixed{
+    position: fixed;
+ }
+
+ .didot{
+    font-family: Didot, serif;
+ }
+
+ .monospace{
+    font-family: monospace;
+ }
+
+ .optima{
+    font-family: Optima, sans-serif;
+ }
+
+ .sixteen{
+    font-size: 16px;
+ }
+
+ .fifteen{
+    font-size: 15px;
+ }
+
+ .mrg_ptsix{
+    margin-top: 0.6in;
+ }
+
+ .mrg_ptono{
+    margin-top: 1.1in;
+ }
+
+ .nobrd{
+    border-style: none;
+ }
+
+ .cthru{
+    background-color: transparent;
+ }
+
+ .btm_ptzrfv{
+    padding-bottom: 0.05in;
+ }
+
+ .ind_one{
+    z-index: 1;
+ }
+
+ .ind_two{
+    z-index: 2;
+ }
+
+ .overfl{
+    overflow-y: hidden;
+ }
+
+ .wd_brd{
+    border-width: thin;
+ }
+
+ .col_brd{
+    border-color: red;
+ }
+
+.hdnm{
+    font-size: 15px;
+    color: white;
+    z-index: 3;
+    background-color: red;
+    border-radius: 0.05in;
+    padding: 0.05in;
+    cursor: pointer;
+}
+
+.nme{
+    margin-left: 0.2in;
+}
+
+.greet{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    margin-top: 2.5in;
+}
+
+.hl{
+    margin-left: 1.2in;
+}
+
+button{
+cursor: pointer;
+color: black;
+}
+
+
+button:link{
+    color: black;
+}
+
+button:visited{
+    color: black;
+}
+
+.ant{
+    margin-left: 0.8in;
+}
+.prf{
+    margin-left: 1.9in;
+}
+.pass{
+    margin-left: 3in;
+}
+.prj{
+    margin-left: 1.5in;
+}
+.dev{
+    margin-left: 2.5in;
+}
+
+
+.antpar{
+    margin-top: 5in;
+    margin-left: 1in;
+}
+.profpar{
+    margin-top: 8in;
+    margin-left: 0.5in;
+}
+.projpar{
+    margin-top: 15.5in;
+    margin-left: 1.5in;
+}
+.edpar{
+    margin-top: 12.3in;
+    margin-left: 0.5in;
+}
+.passpar{
+    margin-top: 10in;
+    margin-left: 2in;
+}
+
+.brain{
+    height: 2.5in;
+    width: 4in;
+    margin-top: 1.8in;
+    margin-left: 0.5in;
+    border-radius: 0.02in;
+}
+
+.up{
+    height: 0.8in;
+    width: 0.8in;
+    cursor: pointer;
+    margin-left: -2in;
+    z-index: 1;
+    background-color: transparent;
+    /* opacity: 0.5; */
+}
+
+@media only screen and (min-width: 200px) and (max-width: 299px){
+   .par{
+    width: 3in;
+   }; 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px){
+    .par{
+        font-size: 14px;
+    }
+    .ant{
+        margin-left: -0.01in;
+    }
+    .prf{
+        margin-left: 2.0in;
+    }
+    .pass{
+        margin-left: 1.12in;
+    }
+    .dev{
+        margin-left: -0.01in;
+    }
+    .prj{
+        margin-left: 1.3in;
+    }
+    .hl{
+        margin-left: 0.5in;
+    }
+    .brain{
+        margin-left: 0.01in;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 499px){
+    .drs{
+        margin-left: -0.8in;
+    }
+    .brain{
+        margin-left: 0.1in;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 600px){
+    .drs{
+        margin-left: 0in;
+    }
+    .par{
+    padding: 0.1in;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 850px){
+    .drs{
+        margin-left: 1.5in;
+    }
+    .par{
+        padding: 0.15in;
+        }
+        .brain{
+            margin-left: 2in;
+        }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1100px){
+    .drs{
+        margin-left: 2.5in;
+    }
+    .par{
+        padding: 0.16in;
+        }
+        .brain{
+            margin-left: 3in;
+        }      
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1400px){
+    .drs{
+        margin-left: 3.5in;
+    }
+    .par{
+        padding: 0.17in;
+        }
+        .brain{
+            margin-left: 4in;
+        }
+}
+
+@media only screen and (min-width: 1401px) and (max-width: 1800px){
+    .drs{
+        margin-left: 4.8in;
+    }
+    .par{
+        padding: 0.18in;
+        }
+        .brain{
+            margin-left: 5.2in;
+        }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 2600px){
+    .drs{
+        margin-left: 10in;
+    }
+    .par{
+        padding: 2in;
+        }
+     .brain{
+            margin-left: 10.3in;
+        }
+    .antpar{
+        margin-top: 3in;
+    }
+    .profpar{
+        margin-top: 6.3in;
+    }
+    .passpar{
+        margin-top: 8in;
+    }
+    .edpar{
+
+        margin-top: 10.5in;
+
+    }
+    .projpar{
+
+        margin-top: 13.8in;
+    }
+    .up{
+        margin-left: 5in;
+    }
+} 
